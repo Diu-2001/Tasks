@@ -1,0 +1,190 @@
+.layout{
+	display: inline;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.main-page{
+	display: flex;
+	background-image:url('C:/Users/ACER/Documents/Photos/backgound.png');
+}
+
+.main-details{
+	display: flex;
+}
+
+.main-page .main-details .content{
+	position: relative;
+	margin-top: 300px;
+	margin-left: 15%;
+	margin-right: 25%;
+}
+
+
+.main-page .main-details .content .title{
+	font-family: "norman-variable",sans-serif;
+	font-size: 40px;
+	line-height: 150%;
+	letter-spacing: 0;
+	vertical-align: middle;
+	color: white;
+	margin-right: 30px;
+    
+}
+
+.main-details .content .buttons{
+	position: absolute;
+	border: 2px solid rgba(255, 255, 255, 0.6);
+    background: rgba(98, 96, 174, 1);
+    border-radius: 5px;
+    padding: 7px 20px;
+}
+
+.buttons .btn{
+	font-family: "Inter", sans-serif;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+.content .buttons:hover{
+	border: 2px solid transparent;
+	color: violet;
+	text-decoration: underline;
+}
+
+.main-page .image{
+	float: right;
+	min-width: 20%;
+	margin-left: -150px;
+}
+
+.image .book-image{
+	width: 75%;
+	height: 70%;
+	margin-top: 200px;
+	margin-right: 20px;
+	margin-bottom: 100px;
+}
+
+.main-page .social-media{
+	position: absolute;
+	display: flex;
+	gap: 15px;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: 75%;
+	margin-top: 7%;
+}
+
+.social-media .social-links{
+	border-radius: 50%;
+	padding: 5px;
+	color:rgba(220, 189, 132, 1);
+}
+
+.about{
+	display: flex;
+}
+
+.about .about-content{
+	display: flex;
+	background: rgba(246, 253, 255, 1);
+}
+
+.about-content .about-image .about-image-wrapper{
+	position: relative;
+	width: 600px;
+	height: 950px;
+	margin-left: 70px;
+	margin-bottom: -5px;
+}
+
+.about-content .about-details{
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 10%;
+	margin-left: -10px;
+}
+
+.about-details .section-title{
+	position: relative;
+	font-family: 'norman-variable',sans-serif;
+	font-size: 50px;
+	color: rgba(90, 89, 167, 1);
+	text-decoration: underline;
+
+}
+.about-details .text{
+	font-family: "Inter" , sans-serif;
+	font-size: 20px;
+}
+
+.about-details .btn1{
+	font-family: "Inter", sans-serif;
+	font-size: 16px;
+
+}
+
+.last-page{
+	display: flex;
+	background: black;
+	background-image: url('images1.png');
+}
+
+.last-page .page-content{
+width: 100%;
+height: auto;
+text-align: center;
+color: white;
+}
+
+.page-content{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	text-align: center;
+}
+.page-content .page-title{
+    text-align: center;
+}
+
+.page-title .text-title{
+	font-family: "norman-variable",sans-serif;
+	font-size: 40px;
+	
+}
+
+.page-title .sub-title{
+	font-family: 'inter',sans-serif ;
+	margin-top: -20px;
+}
+
+.form-text .email-input{
+	width: 40%;
+	padding:10px;
+	border-radius: 10px;
+	background-image: url('icon1.png');
+	background-repeat: no-repeat;
+	background-position-x: right;
+	background-size: 20px 20px;
+	background-origin: content-box;
+}
+
+.media{
+	text-align: center;
+	padding: 20px;
+	gap: 20px;
+	margin-top: 50px;
+}
+
+.media .social{
+	width: 20px;
+}
+
+.footer{
+	 font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+	 margin-top: 10px;
+}
+
+
+
